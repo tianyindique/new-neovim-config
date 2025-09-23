@@ -72,3 +72,7 @@ vim.o.scrolloff = 10
 vim.o.confirm = true
 
 -- vim: ts=2 sts=2 sw=2 et
+
+-- ban netrw
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
